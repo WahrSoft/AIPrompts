@@ -1,0 +1,8 @@
+@Modernize Modernize to .NET 8 with specific chagnes for deployment to Azure using PaaS Services for hosting.  Account for general changes such as:
+- Configuration management to convert all ConfigurationManager to IConfiguration
+- Ensure newest Application Insights is installed and configured.  Upgrade any previous configuration.
+- Make sure all configuration is migrated from web.config to appsettings.json
+
+Based on the #file:'modernization.json' , use the other instruction #file:'ASMX.txt' #file:'EntityFramework.txt' #file:'Remoting.txt' #file:'WCF.txt' #file:'Webforms.txt' #file:'WindowsWorkflow.txt' 
+
+Build and keep fixing error until clean compile.

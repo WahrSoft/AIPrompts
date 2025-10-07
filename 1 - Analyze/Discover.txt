@@ -1,0 +1,11 @@
+Analyze solution for modernization.  
+Look for external dependencies such as Databases and External services.  
+Categorize this kind of application for what kind of modernization should occur.
+
+For .NET Framework modernizations, write out the referenced files/folders used and if any of the following are used to a JSON in the root of the repository called modernization.json:
+- ASMX Web Services
+- Entity Framework
+- Remoting
+- WCF
+- Web Forms
+- Windows Workflow

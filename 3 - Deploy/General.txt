@@ -1,0 +1,12 @@
+ I need to create an Enterprise grade Bicep solution for Azure deployment using best practices
+ - create a Key Vault to put secrets in that are found in appSettings
+ - If the app uses SQL, use a SQL connection string that uses a configured managed identity for the web app service
+ - Use the current user account for the Entra Admin for SQL.  
+ - Configure a virtual network and use private endpoints to talk to all dependent services. 
+ - Seperate the bicep files by resource having it all brought together in main.bicep
+ - Write the files out directly to an infra folder on the root
+ - For AppService, ensure the startup command is set
+
+Then create GitHub Actions to build just selected solution. ensure the infrastructure is deployed, and deploy application to the new infrastructure.
+
+Include any instructions needed to setup access to Azure.
